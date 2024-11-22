@@ -8,6 +8,9 @@ def add1(a, b):
 def add2(a, b):
     s = a + b
     return s
+    print('XXXXXXXXXX')
+    x = 10
+    print(x * 2)
 
 def func1():
     pass
@@ -22,6 +25,19 @@ print(x)
 print()
 
 print(add1(1,2))
+
+
+def my_func(x):
+    return x, x**2, x**3, x**4
+
+print(my_func(3))
+
+a, b, c, d = my_func(10)
+print(a, b, c, d)
+
+x, *y = my_func(4)
+print(x, y)
+
 
 
 
